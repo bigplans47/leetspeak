@@ -5,6 +5,9 @@ class String
     i = -1
     while (i <= letters.length-1)
       i += 1
+      if letters[i] === "s"
+        letters[0] = "s"
+      end
       if letters[i] === "e"
         letters[i] = 3
       end
